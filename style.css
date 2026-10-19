@@ -1,0 +1,17 @@
+* { box-sizing: border-box; }
+body { font-family: Arial, sans-serif; background: #f2f4f8; margin: 0; padding: 20px; color: #222; }
+.container { max-width: 1000px; margin: 0 auto; }
+h1 { margin-top: 0; }
+.header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+.role { background: #4a90e2; color: #fff; padding: 4px 10px; border-radius: 12px; font-size: 13px; margin-right: 10px; }
+.btn-logout { color: #c0392b; text-decoration: none; }
+.card { background: #fff; border-radius: 8px; padding: 20px; margin-bottom: 20px; box-shadow: 0 2px 6px rgba(0,0,0,0.08); }
+form label { display: block; margin-bottom: 10px; }
+form input, form select { display: block; width: 100%; padding: 8px; margin-top: 4px; border: 1px solid #ccc; border-radius: 4px; }
+button { background: #4a90e2; color: #fff; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer; }
+button:hover { background: #357abd; }
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; padding: 8px; border-bottom: 1px solid #eee; font-size: 14px; }
+.error { color: #c0392b; }
+.success { color: #27ae60; }
+a { color: #4a90e2; }
